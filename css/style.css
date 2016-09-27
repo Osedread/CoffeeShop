@@ -1,0 +1,44 @@
+/* GENERAL STYLE */
+
+body {
+	font-family: 'Yatra One';
+	
+}
+
+header,
+section {
+	margin-bottom: 4em;
+}
+
+.red-bg {
+	background-color: rgb(114, 11, 11);
+	color: white;
+}
+
+/*NAVIGATION BAR */
+
+div li {
+	margin-right: 2.5em;
+}
+
+/* HEADER */
+
+header {
+	background: url("../images/coff2.jpg") no-repeat;
+	background-size: cover;
+	height: 93vh;
+}
+
+#jumbotron {
+	padding-top: 10%;
+}
+
+/* MENU */
+
+
+
+/* ABOUT */
+
+.img-fluid {
+	height: 100px;
+}
