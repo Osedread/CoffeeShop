@@ -6,7 +6,8 @@ body {
 	background: linear-gradient(
 		to bottom right,
 		rgb(234, 196, 117) 20%,
-		rgb(196, 166, 106) );
+		rgb(96, 96, 56) );
+		color: rgb(113, 11, 11);
 }
 
 .red-bg {
@@ -14,7 +15,7 @@ body {
 		to bottom right,
 		rgb(114, 11, 11) 60%,
 		rgb(193, 7, 7));
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 
@@ -22,10 +23,19 @@ body {
 
 nav div li {
 	margin-right: 2.5em;
+	font-size: 1.3em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(234, 196, 117);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgb(255, 255, 255);
 }
 
 .navbar-toggler {
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 
@@ -36,13 +46,17 @@ nav div li {
 }
 
 header {
-	background: url("../images/coff11.jpg") no-repeat;
+	background: url("../images/coff12.jpg") no-repeat;
 	background-size: cover;
 	height: 70vh;
+
 }
 
-header h1 {
-	text-shadow: 1px 1px black;
+.filter-bg {
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: 2px 2px rgb(96, 96, 56);
+	color: rgb(234, 196, 117);
+	border-radius: 8px;
 }
 
 
@@ -55,3 +69,10 @@ header h1 {
 
 
 /* ABOUT */
+
+.map-style {
+	border: 4px solid rgb(96, 96, 56);
+	box-shadow: 1px 1px 2px rgb(234, 196, 117);
+
+
+}
