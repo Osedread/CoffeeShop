@@ -10,15 +10,6 @@ body {
 	
 }
 
-.white-bg {
-	background: linear-gradient(
-		to bottom right,
-		rgb(234, 196, 117) 40%,
-		rgb(196, 166, 106) );
-	color: rgb(114, 11, 11);
-
-}
-
 .red-bg {
 	background: linear-gradient(
 		to bottom right,
