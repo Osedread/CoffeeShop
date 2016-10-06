@@ -2,43 +2,67 @@
 
 body {
 	font-family: 'Yatra One';
+	overflow-x: hidden; /* Removes horizontal scrollbar when applying .container-fluid to MENU */
+	background: linear-gradient(
+		to bottom right,
+		rgb(234, 196, 117) 20%,
+		rgb(196, 166, 106) );
 	
 }
 
-header,
-section {
-	margin-bottom: 4em;
+.white-bg {
+	background: linear-gradient(
+		to bottom right,
+		rgb(234, 196, 117) 40%,
+		rgb(196, 166, 106) );
+	color: rgb(114, 11, 11);
+
 }
 
 .red-bg {
-	background-color: rgb(114, 11, 11);
+	background: linear-gradient(
+		to bottom right,
+		rgb(114, 11, 11) 60%,
+		rgb(193, 7, 7));
 	color: white;
 }
 
+
 /*NAVIGATION BAR */
 
-div li {
+nav div li {
 	margin-right: 2.5em;
 }
 
+.navbar-toggler {
+	color: white;
+}
+
+
 /* HEADER */
 
-header {
-	background: url("../images/coff2.jpg") no-repeat;
-	background-size: cover;
-	height: 93vh;
+.jumbotron {
+	margin-bottom: 0;
 }
 
-#jumbotron {
-	padding-top: 10%;
+header {
+	background: url("../images/coff11.jpg") no-repeat;
+	background-size: cover;
+	height: 70vh;
+
 }
+
+header h1 {
+	text-shadow: 1px 1px black;
+}
+
 
 /* MENU */
 
+.card img {
+	min-height: 250px;
+	width: auto;
+}
 
 
 /* ABOUT */
-
-.img-fluid {
-	height: 100px;
-}
