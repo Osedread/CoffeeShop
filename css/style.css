@@ -13,29 +13,36 @@ body {
 .red-bg {
 	background: linear-gradient(
 		to bottom right,
-		rgb(114, 11, 11) 60%,
-		rgb(193, 7, 7));
+		rgb(57, 3, 3) 40%,
+		rgb(114, 11, 11));
 	color: rgb(255, 255, 255);
 }
 
 
 /*NAVIGATION BAR */
 
+nav {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-bottom: 2px solid rgba(57, 3, 3, 0.4);
+	color: rgb(57, 3, 3);
+	text-shadow: 1px 1px 2px rgb(242, 220, 137);
+}
+
 nav div li {
 	margin-right: 2.5em;
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: rgb(234, 196, 117);
-}
+	color: rgb(57, 3, 3);
+} 
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: rgb(255, 255, 255);
+	color: rgb(114, 11, 11);
 }
 
 .navbar-toggler {
-	color: rgb(255, 255, 255);
+	color: rgb(57, 3, 3);
 }
 
 
@@ -48,7 +55,7 @@ nav div li {
 header {
 	background: url("../images/coff12.jpg") no-repeat;
 	background-size: cover;
-	height: 70vh;
+	height: 75vh;
 
 }
 

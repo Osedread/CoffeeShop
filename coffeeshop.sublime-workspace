@@ -339,7 +339,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7860,
+				"buffer_size": 8561,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -348,7 +348,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 841,
+				"buffer_size": 1297,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -543,15 +543,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7860,
+						"buffer_size": 8561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4176,
-								4178
+								2596,
+								2596
 							]
 						],
 						"settings":
@@ -562,27 +562,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										4181,
-										4182
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										4143,
-										4144
-									]
 								},
 								"unmatched":
 								{
@@ -590,16 +575,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -615,36 +625,11 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_double_quote_content"
 							],
 							"color_scheme": "Packages/User/SublimeLinter/Predawn Monokai (SL).tmTheme",
 							"spell_check": true,
@@ -652,7 +637,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 526.0,
+						"translation.y": 52.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -670,15 +655,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 841,
+						"buffer_size": 1297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								464,
-								464
+								845,
+								845
 							]
 						],
 						"settings":
@@ -689,27 +674,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										493,
-										494
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										463,
-										464
-									]
 								},
 								"unmatched":
 								{
@@ -717,16 +687,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -742,36 +737,11 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_double_quote_content"
 							],
 							"color_scheme": "Packages/User/SublimeLinter/Predawn Monokai (SL).tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
@@ -815,7 +785,7 @@
 		"cols":
 		[
 			0.0,
-			0.563659272025,
+			0.648728716469,
 			1.0
 		],
 		"rows":
