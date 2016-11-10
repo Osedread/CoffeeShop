@@ -2,7 +2,7 @@
 <html lang="en">
 
 	<head>
-		<title>Dom's Coffee</title>
+		<title>Collins' Coffee</title>
 
 <!-- ////// METAS ///// -->
 		<meta charset="utf-8">
@@ -14,7 +14,9 @@
   		<meta name="author" content="Jose Diaz">
 
 <!--  ///// CSS links ///// -->
-		<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Shrikhand" rel="stylesheet">
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -22,111 +24,126 @@
 	<body>
 
 <!-- ///// NAVIGATION ///// -->
-	<nav id="nav" class="navbar navbar-fixed-top navbar-dark navbar-full fixed-top p-b-0 p-t-1">
+	<nav id="nav" class=" shrikhand navbar navbar-fixed-top navbar-dark navbar-full fixed-top p-b-0">
 		<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#CollapseNavBar" aria-controls="CollapseNavBar" aria-expanded="false" aria-label="Toggle navigation">
     		&#9776;
   		</button>
   		<div class="collapse navbar-toggleable-xs" id="CollapseNavBar">
 			<ul class="nav navbar-nav">
-					<li class="nav-item"><h1>Dom's Coffee House</h1></li>
+					<li class="nav-item hidden-xs-down"><h2>Collins' Coffee</h2></li>
 				<div class="pull-sm-right">
-					<li class="nav-item"><a class="nav-link" href="#location" title="">Location/Hours</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about" title="">About us</a></li>
 					<li class="nav-item"><a class="nav-link" href="#menu" title="">Menu</a></li>
-					<li class="nav-item"><a class="nav-link" href="#about" title="">About</a></li>
 				</div>
 			</ul>
 		</div>
 	</nav>
 
 <!-- HEADER -->
-	<header id="header" class="jumbotron jumbotron-fluid">
-		<div class="container">
+	<header id="header" class=" shrikhand jumbotron jumbotron-fluid">
+		<div class="container-fluid">
 			<div class="row">
-					<!--
-				<div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-4 col-md-6 offset-md-5 col-lg-5 offset-lg-7 text-md-right filter-bg p-a-2">
-					<h2 class="">Independent european coffee house in the heart of Bristol</h1>
+				<div class="title text-xs-center">
+					<h1 class="hidden-xs-down">We love coffee</h1>
+					<h1 class="hidden-sm-up">Collins' Coffee</h1>
 				</div>
-					-->
 			</div>
-		</div>
 	</header>
 
 	<!-- ABOUT -->
-	<section class="red-bg">
+	<section class="shrikhand orange-bg p-b-3">
 		<div class="container-fluid p-t-2">
+			
+			
 			<div class="row">
-				<h3 class="m-y-2 display-4 text-xs-center">Location / Hours</h3>
+				<h3 id="about" class="m-y-2 display-3 text-xs-center">About us</h3>
 				<div class="col-xs-10 offset-xs-1 col-sm-5 offset-sm-1 col-md-5 col-lg-4 offset-lg-2 text-sm-justify p-t-3">
-					<p class="lead">Independent coffee house in the centre of Bristol, specialised in coffee from local resources. </p>
-				</div>
-				<div class="col-xs-8 offset-xs-2 col-sm-4 offset-sm-1 col-lg-3 offset-lg-2">
-					<img src="images/coff2.jpg" class="img-fluid img-rounded m-y-3">
-					<div class="filter-bg">
-						<p>[Opening times]</p>
+					<p class="lead lobster">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan tellus erat, vitae laoreet tortor bibendum porttitor. Curabitur at erat augue. Nullam gravida, leo nec dapibus sollicitudin, ligula lorem tincidunt odio, nec commodo diam lectus facilisis nulla. Nam luctus, sem sit amet iaculis pretium, massa sem tempor felis, a efficitur justo nisl eu dolor.</p>
+					<div class="map-style p-a-0">
+						<div id="map" style="width:100%;height:250px"></div>
 					</div>
 				</div>
-			</div>
-			<div class="row m-y-3">
-				<div class="col-xs-10 offset-xs-1 map-style p-a-0">
-					<div id="map" style="width:100%;height:300px"></div>
+				
+				<div class="col-xs-8 offset-xs-2 col-sm-5 offset-sm-1 col-lg-4 offset-lg-1 p-b-3">
+					<img src="images/coff4.jpeg" class="img-fluid img-rounded m-y-3">
+					
+						<table>
+						<thead>
+							<tr>
+								<th colspan="2" class="text-xs-center">Opening Times</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Monday - Friday</td>
+								<td>7.30 - 19.30</td>
+							</tr>
+							<tr>
+								<td class="">Saturdays and Sundays</td>
+								<td>8.30 - 19.30</td>
+							</tr>
+						</tbody>
+					</table>
+					
 				</div>
-			</div>
 		</div>
+			
+		
 	</section>
 
 <!-- MENU -->
 	<section class="container" id="menu">
 		<div class="p-t-2">
 			<div class="row">
-				<h3 class="text-xs-center m-y-2 display-4">Menu</h3>
-			<div class="card-deck-wrapper">
+				<h3 class="text-xs-center m-y-2 display-3 medium-orange">Menu</h3>
+			<div class="card-deck-wrapper lobster">
 				<div class="card-deck">
 
-				<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4 p-y-1">
-					<div class="card card-outline-warning">
-						<div class="card-header red-bg">
+				<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-6 p-y-1">
+					<div class="card card-warning card-inverse card-outline-warning">
+						<div class="card-header orange-bg">
 							<h4 class="card-title m-y-1 text-xs-center">Coffee</h4>
 						</div>
-						<img src="images/coffee1.jpg" alt="coffee-img" class="card-fluid img-fluid">
+						<img src="images/coff5.jpg" alt="coffee-img" class="card-fluid img-fluid">
 							<ul class="list-group list-group-flush">
-								<li class="list-group-item list-group-item-danger">Expresso <span class="tag tag-pill tag-danger pull-xs-right">£1.60 / £1.80</span></li>
-								<li class="list-group-item list-group-item-danger">Macchiato <span class="tag tag-pill tag-danger pull-xs-right">£1.90 / £2.20</span></li>
-								<li class="list-group-item list-group-item-danger">Piccolo <span class="tag tag-pill tag-danger pull-xs-right">£2.10 / £2.30</span></li>
-								<li class="list-group-item list-group-item-danger">Cappuccino <span class="tag tag-pill tag-danger pull-xs-right">£2.30 / £2.50</span></li>
-								<li class="list-group-item list-group-item-danger">Latte <span class="tag tag-pill tag-danger pull-xs-right">£2.50 / £2.70</span></li>
-								<li class="list-group-item list-group-item-danger">Mocha <span class="tag tag-pill tag-danger pull-xs-right">£2.90 / £3.20</span></li>
-								<li class="list-group-item list-group-item-danger">Americano <span class="tag tag-pill tag-danger pull-xs-right">£2.10 / £2.40</span></li>
-								<li class="list-group-item list-group-item-danger">Flat White <span class="tag tag-pill tag-danger pull-xs-right">£2.30 / £2.50</span></li>
-								<li class="list-group-item list-group-item-danger">Iced Latte <span class="tag tag-pill tag-danger pull-xs-right">£2.90 / £3.20</span></li>
-								<li class="list-group-item list-group-item-danger">Iced Coffee <span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
-								<li class="list-group-item list-group-item-danger">Extra shot <span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
-								<li class="list-group-item list-group-item-danger">Syrup <span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Expresso <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£1.60</span></li>
+								<li class="list-group-item list-group-item-warning">Macchiato <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£1.90</span></li>
+								<li class="list-group-item list-group-item-warning">Piccolo <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.10</span></li>
+								<li class="list-group-item list-group-item-warning">Cappuccino <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.30</span></li>
+								<li class="list-group-item list-group-item-warning">Latte <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.50</span></li>
+								<li class="list-group-item list-group-item-warning">Mocha <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.90</span></li>
+								<li class="list-group-item list-group-item-warning">Americano <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.10</span></li>
+								<li class="list-group-item list-group-item-warning">Flat White <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.30</span></li>
+								<li class="list-group-item list-group-item-warning">Iced Latte <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.90</span></li>
+								<li class="list-group-item list-group-item-warning">Iced Coffee <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Extra shot <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Syrup <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
 							</ul>
 					</div>
 				</div>
-				<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4 p-y-1">
+				<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-6 p-y-1">
 					<div class="card card-outline-warning">
-						<div class="card-header red-bg">
+						<div class="card-header orange-bg">
 							<h4 class="card-title m-y-1 text-xs-center">Pastries</h4>
 						</div>
 						<img src="images/pastry1.jpg" alt="pastries-img" class="img-fluid">
 							<ul class="list-group list-group-flush">
-								<li class="list-group-item list-group-item-danger">Croissants <span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
-								<li class="list-group-item list-group-item-danger">Muffins <span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
-								<li class="list-group-item list-group-item-danger">Biscuits <span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Croissants <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Muffins <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Biscuits <span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
 							</ul>
 					</div>
 				</div>
-				<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4 p-y-1">
+				<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-6 p-y-1">
 					<div class="card card-outline-warning">
-						<div class="card-header red-bg">
+						<div class="card-header orange-bg">
 							<h4 class="card-title m-y-1 text-xs-center">Cakes</h4>
 						</div>
 						<img src="images/cake1.jpg" alt="cake-img" class="img-fluid">
 							<ul class="list-group list-group-flush">
-								<li class="list-group-item list-group-item-danger">Red Velvet<span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
-								<li class="list-group-item list-group-item-danger">Lemon cheesecake<span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
-								<li class="list-group-item list-group-item-danger">Three chocolates<span class="tag tag-pill tag-danger pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">orange Velvet<span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Lemon cheesecake<span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
+								<li class="list-group-item list-group-item-warning">Three chocolate<span class="medium-orange tag tag-pill tag-warning pull-xs-right">£2.00</span></li>
 							</ul>
 					</div>
 				</div>
@@ -138,8 +155,8 @@
 		</div>
 	</section>
 
-	<footer>
-		<p> Built by J. Diaz</p>
+	<footer class="p-x-3 text-xs-center">
+		<p> Built by <a href="http://www.jdiaz.co.uk" class="light-orange">J. Diaz</a></p>
 	</footer>
 
 
