@@ -7,9 +7,8 @@ $(document).ready( function() {
 
 	// When the user scrolls down, the navbar should fade out and the responsive button should fade in
 	/* $(window).scroll( function() {
-		if ($(window).scrollTop() > 0) {		
+		if ($(window).scrollTop() > 0) {
 		});
 	*/
-
 
 });
