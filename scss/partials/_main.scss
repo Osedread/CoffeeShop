@@ -1,0 +1,39 @@
+body {
+	font-family: $font0, $font1;
+	background-color: $color_white_gradient1;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	padding: 0.2em;
+	color: $color_medium_orange;
+	font-weight: 800;
+	text-shadow: 2px 2px 2px $color_dark_orange;
+}
+
+a, a:hover, a:focus, a:active {
+	text-decoration: none;
+}
+
+p {
+	padding: 1em;
+}
+
+section {
+	padding-top: 4em;
+	//position: relative;
+	overflow-x: hidden;
+}
+
+h3 {
+	border: 2px solid $color_medium_orange;
+	border-right: none;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+	background-color: $color_light_orange;
+	display: inline-block;
+	float: right;
+	width: 80%;
+	position: relative;
+	box-shadow: 6px 6px 2px $color_dark_orange;
+	
+}

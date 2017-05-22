@@ -15,7 +15,7 @@
 
 <!--  ///// CSS links ///// -->
 		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Lobster|Shrikhand" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -29,11 +29,11 @@
 		<nav class="">
 			<button class="nav-btn hidden-md-up navbar-fixed-top col-xs-12"><i class="fa fa-2x fa-bars" aria-hidden="true"></i>
 			</button>
-			<div class="nav-content">
+			<div class="nav-content navbar-fixed-top">
 				<ul>
-					<li>About us</li>
-					<li>Opening Times / Location</li>
-					<li>Menu</li>
+					<li><a href="#about" class="mobile-nav">About us</a></li>
+					<li><a href="#" class="mobile-nav">Opening Times / Location</a></li>
+					<li><a href="#" class="mobile-nav">Menu</a></li>
 				</ul>
 			</div>
 
@@ -43,15 +43,15 @@
 			</div>
 			<div id="navigation" class="hidden-sm-down col-xs-12 text-center p-t-2">
 				<ul class="navbar-nav justify-content-center">
-					<li class="nav-item"><a href="#" title="">ABOUT US</a></li>
-					<li class="nav-item"><a href="#" title="">OPENING TIMES / LOCATION</a></li>
-					<li class="nav-item"><a href="#" title="">MENU</a></li>	
+					<li class="nav-item"><a href="#about" class="desktop-nav">ABOUT US</a></li>
+					<li class="nav-item"><a href="#" class="desktop-nav">OPENING TIMES / LOCATION</a></li>
+					<li class="nav-item"><a href="#" class="desktop-nav">MENU</a></li>	
 				</ul>
 			</div>
 		</nav>
 
 		<div class="row">
-			<h3 class=" hidden-sm-down text-xs-center p-t-3">We love coffee</h1>
+			<h2 class=" hidden-sm-down text-xs-center p-t-3">We love coffee</h2>
 		</div>
 		<div class="col-xs-12 text-center p-t-3">
 			<i class="fa fa-3x fa-chevron-down hidden-sm-down" aria-hidden="true"></i>
@@ -60,17 +60,24 @@
 	</header>
 
 <!-- ABOUT -->
-	<section class="container-fluid orange-bg">
+	<section class="container-fluid">
 		<div class="row">
-			<h3 id="about" class="display-3 text-xs-center">About us</h3>
-			<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-8 col-lg-6 offset-lg-3 text-sm-justify">
-				<p class="lead text-justify lobster">We are an independent coffee shop located in Bristol. We are specialised in bringing the best types of coffee around the world. Every month we will be serving ten different grounds coffees that you can taste and leave your opinions on Twitter. At the end of the year you will decide the best resource of coffee and we will bring it back for Christmas, joining it to the regular menu. Come and help us choose!</p>
+			<h3 id="about" class="text-xs-center">About us</h3>
+			<div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-md-8 col-lg-6 offset-lg-3 text-justify">
+				<p class="lead">We are an independent coffee shop located in the heart of Bristol. We are specialised in bringing the best types of coffee around the world. Every month we will be serving ten different grounds coffees that you can taste and leave your opinions on Twitter. At the end of the year you will decide the best resource of coffee and we will bring it back for Christmas, joining it to the regular menu.</p>
+				<p>Come and help us choose!</p>
 			</div>
+		</div>
+	</section>
 
-			<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-4 col-lg-3 offset-lg-3 map-style p-a-0 m-y-1">
-				<div id="map" style="width:100%;height:370px"></div>
+<!-- LOCATION / OPENING TIMES -->
+	<section class="container-fluid">
+		<div class="row">
+			<h3 id="location-times" class="text-xs-center">Location / Opening Times</h3>
+			<div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-md-4 col-lg-4 offset-lg-2 p-a-0 m-y-1">
+				<div id="map" style="width:100%;height:350px"></div>
 			</div>
-			<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-4 col-lg-3 offset-lg-0 p-b-3">
+			<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-4 col-lg-4 offset-lg-0 p-b-3">
 				<img src="images/coff4PS.jpg" class="img-fluid p-y-1">
 				<table>
 					<thead>
@@ -90,22 +97,19 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="col-xs-8 offset-xs-2 col-sm-6 offset-sm-3 col-md-4 offset-md-4 p-t-2">
-
-			</div>
 		</div>
 	</section>
 
 <!-- MENU -->
-	<section class="container" id="menu">
+	<section class="container-fluid" id="menu">
 		<div class="p-t-2">
 			<div class="row">
-				<h3 class="text-xs-center display-3 m-y-2">Menu</h3>
-					<div class="card-deck-wrapper lobster">
+				<h3 class="text-xs-center m-y-2">Menu</h3>
+					<div class="card-deck-wrapper">
 						<div class="card-deck">
 							<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4 offset-lg-2 p-y-1">
 								<div class="card card-outline-warning">
-									<div class="card-header orange-bg">
+									<div class="card-header">
 										<h4 class="card-title m-y-1 text-xs-center">Coffee</h4>
 									</div>
 									<img src="images/coff5PS.jpg" alt="coffee-img" class="card-fluid img-fluid">
@@ -127,7 +131,7 @@
 							</div>
 							<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4 p-y-1">
 								<div class="card card-outline-warning">
-									<div class="card-header orange-bg">
+									<div class="card-header">
 										<h4 class="card-title m-y-1 text-xs-center">Pastries</h4>
 									</div>
 									<img src="images/pastry1.jpg" alt="pastries-img" class="img-fluid">
@@ -140,7 +144,7 @@
 							</div>
 							<div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4 p-y-1">
 								<div class="card card-outline-warning">
-									<div class="card-header orange-bg">
+									<div class="card-header">
 										<h4 class="card-title m-y-1 text-xs-center">Cakes</h4>
 									</div>
 									<img src="images/cake1.jpg" alt="cake-img" class="img-fluid">
@@ -158,7 +162,7 @@
 	</section>
 
 	<footer class="p-x-3 text-xs-center">
-		<p> Built by <a href="http://www.jdiaz.co.uk" class="light-orange">J. Diaz</a></p>
+		<p> Built by <a href="http://www.jdiaz.co.uk" class="">J. Diaz</a></p>
 	</footer>
 
 
@@ -182,20 +186,18 @@
 	}
 	</script>
 
-	<!-- JQUERY -->
+	<!-- JQUERY and JQUERY InView -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+	<script src="js/jquery.inview.min.js"></script>
 
 	<!-- GOOGLE MAPS API -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi32QVR8yzzW-KUguHZlYnyBQTFMu0vVI&callback=myMap"></script>
 
 	<!-- OWN SCRIPTS -->
-	<script src="custom.js"></script>
+	<script src="js/custom.js"></script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-
 
 	</body>
 </html>

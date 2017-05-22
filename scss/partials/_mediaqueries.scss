@@ -1,0 +1,22 @@
+/* MEDIA QUERIES */
+
+@media (min-width:480px) {
+	/* smartphones, Android phones, landscape iPhone */
+	header {
+		background: radial-gradient(
+			ellipse,
+			rgba(0, 0, 0, 0) 50%,
+			rgba(0, 0, 0, 1)),url("../images/coff3PS.jpg") center center fixed;
+		background-size: cover;
+		height: 100vh;
+	}
+}
+
+@media (max-width:  768px) {
+	.title {
+		position: absolute;
+		left: 50%;
+    	top: 50%;
+    	transform: translate(-50%,-50%);
+	}
+}
