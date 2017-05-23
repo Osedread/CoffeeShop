@@ -1,8 +1,3 @@
-var $section = $("section");
-var $h3 = $("h3");
-
-$h3.hide();
-
 $(document).ready( function() {
 
 	//
@@ -10,13 +5,6 @@ $(document).ready( function() {
 		$(".nav-content").slideToggle("slow");
 	});
 
-	$section.on("inview", function(event, isInView) {
-
-		if (isInView) {
-			$section.each(function(){
-				$(this).find("h3").fadeIn();
-			});
-		}
-	});
+	
 
 });
