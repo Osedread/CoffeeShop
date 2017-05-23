@@ -1,0 +1,42 @@
+.location-times-section .img-fluid, #map {
+	border: 2px solid $color_medium_orange;
+
+}
+
+table {
+	width: 95%;
+}
+
+
+
+.card {
+	background-color: $color_white_gradient1;
+	border: 2px solid $color_medium_orange;
+	border-radius: 0;
+	color: $color_medium_orange;
+
+	.img-fluid {
+		border-bottom: 2px solid $color_medium_orange;
+	}
+
+	.card-header {
+		background-color: $color_medium_orange;
+		border-radius: 0;
+	}
+
+	.card-title {
+		color: $color_light_orange;
+		text-shadow: 2px 2px 2px $color_dark_orange;
+	}
+	
+	.tag-warning {
+		background-color: $color_light_orange;
+		color: $color_dirty_white;
+	}
+}
+
+footer a:hover {
+	color: $color_dark_orange;
+}
+
+

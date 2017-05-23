@@ -11,8 +11,11 @@ $(document).ready( function() {
 	});
 
 	$section.on("inview", function(event, isInView) {
+
 		if (isInView) {
-			$section.find("h3").fadeIn();
+			$section.each(function(){
+				$(this).find("h3").fadeIn();
+			});
 		}
 	});
 
