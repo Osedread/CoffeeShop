@@ -29,9 +29,8 @@ table {
 		text-shadow: 2px 2px 2px $color_dark_orange;
 	}
 	
-	.tag-warning {
-		background-color: $color_light_orange;
-		color: $color_dirty_white;
+	li {
+		color: $color_light_orange;
 	}
 }
 
